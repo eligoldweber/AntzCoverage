@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AntzBot
+comment0.text=\n\ Write\ a\ description\ of\ class\ AntzBot\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=tId
+comment1.target=AntzBot(int)
+comment10.params=dir
+comment10.target=AntzBot\ getNeighbor(int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ AntzBot\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=int\ neighborNum()
+comment4.params=temp
+comment4.target=boolean\ inNeighborhood(AntzBot)
+comment5.params=
+comment5.target=void\ resetNeighborhood()
+comment6.params=
+comment6.target=int\ getID()
+comment7.params=dir
+comment7.target=void\ makeMove(int)
+comment8.params=
+comment8.target=int\ pickRandomDirection()
+comment9.params=
+comment9.target=void\ pickDirection()
+numComments=11

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Alaska()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Alaska.\n\n\n
+comment1.params=gridSize\ cellSize\ bgColor\ lineColor
+comment1.target=void\ drawBackground(int,\ int,\ Color,\ Color)
+comment1.text=\ndrawBackground\ -\ fill\ in\ the\ background\ color\ and\ fill\ in\ grid\ lines\ as\ well.\nBy\ making\ the\ grid\ lines\ the\ same\ as\ the\ bg\ color,\ one\ can\ "eliminate"\ grid\ lines\n\n\n
+comment2.params=numberOfBears\ bearSize
+comment2.target=void\ populateBears(int,\ int)
+comment2.text=\npopulateBears\ -\ add\ a\ set\ amount\ of\ new\ bears\ into\ the\ park\n\n\n
+comment3.params=numberOfHares\ hareSize
+comment3.target=void\ populateHares(int,\ int)
+comment3.text=\npopulateHares\ -\ add\ a\ set\ amount\ of\ new\ bears\ into\ the\ park\n\n\n
+comment4.params=numberOfShrubs\ shrubSize
+comment4.target=void\ populateHareFood(int,\ int)
+comment4.text=\npopulateBears\ -\ add\ a\ set\ amount\ of\ new\ bears\ into\ the\ park\n\n\n
+numComments=5

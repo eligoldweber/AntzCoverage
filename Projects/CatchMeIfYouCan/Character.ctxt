@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\n\ The\ Character\ class\ is\ a\ superclass\ for\ the\ individual\ moving\ actors\ in\ the\ CatchMeIfYouCan\ World.\n\ This\ superclass\ "factors\ out"\ the\ ability\ to\ move\ around\ the\ world\ in\ one\ of\ two\ different\ fashions\:\n\ with\ Wrap\ and\ without\ wrap.\ \ Wrap\ around\ treats\ the\ world\ as\ a\ torus,\ without\ wrap\ respects\ the\ world's\ \n\ boundaries.\ \ In\ either\ case,\ a\ moving\ object\ is\ never\ allowed\ to\ move\ onto\ a\ location\ occupied\ by\ a\n\ barrier\ object\ (i.e.\ an\ instance\ of\ the\ Rock\ class.)\n\ \n\ @author\ Mikeyg\ \n\ @version\ 2/26/07\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ Do\ nothing.\ \ Since\ there\ will\ never\ be\ individual\ Characters\ instantiated,\ there\ is\n\ no\ reason\ to\ have\ anything\ here.\n
+comment2.params=leftRight\ upDown
+comment2.target=void\ moveWithWrap(int,\ int)
+comment2.text=\n\ MoveWithWrap\ -\ move\ the\ current\ object\ in\ the\ indicated\ direction\:\ \n\ Consider\ the\ 8\ adjacent\ squares\ (and\ the\ current\ square).\ \ The\ parameters\ indicate\n\ by\ way\ of\ two\ 3-way\ variables\ which\ adjacent\ square\ to\ move\ into.\ \ This\ function\ allows\n\ "wrapping"\ around\ the\ world\ in\ a\ torus\ fashion.\ \ Finally,\ after\ the\ new\ coordinates\ have\ \n\ been\ computed,\ the\ move\ is\ only\ made\ if\ the\ square\ to\ be\ moved\ into\ does\ not\ contain\ a\ \n\ barrier\n\n\ @param\ \ leftRight\:\ a\ 3-state\ variable\ indicating\ left,\ right,\ or\ stay\ put\n\ \ \ \ \ \ \ \ \ upDonw\:\ a\ 3-state\ variable\ indicating\ up,\ down,\ or\ stay\ put.\n\ \ \ \ \ \ \ \ \ \n
+comment3.params=leftRight\ upDown
+comment3.target=void\ moveWithoutWrap(int,\ int)
+comment3.text=\n\ MoveWithoutWrap\ -\ move\ the\ current\ object\ in\ the\ indicated\ direction\:\ \n\ Consider\ the\ 8\ adjacent\ squares\ (and\ the\ current\ square).\ \ The\ parameters\ indicate\n\ by\ way\ of\ two\ 3-way\ variables\ which\ adjacent\ square\ to\ move\ into.\ \ This\ function\ does\ not\n\ allow\ "wrapping"\ around\ the\ world\ in\ a\ torus\ fashion.\ \ Any\ attempt\ to\ move\ beyond\ the\ world's\ \n\ bounaries\ is\ considered\ a\ no-op.\ \ Finally,\ after\ the\ new\ coordinates\ have\ \n\ been\ computed,\ the\ move\ is\ only\ made\ if\ the\ square\ to\ be\ moved\ into\ does\ not\ contain\ a\ \n\ barrier\n\n\ @param\ \ leftRight\:\ a\ 3-state\ variable\ indicating\ left,\ right,\ or\ stay\ put\n\ \ \ \ \ \ \ \ \ upDonw\:\ a\ 3-state\ variable\ indicating\ up,\ down,\ or\ stay\ put.\n\ \ \ \ \ \ \ \ \ \n
+comment4.params=newX\ newY
+comment4.target=void\ moveIfAllowed(int,\ int)
+comment4.text=\n\ MoveIfAllowed\ -\ Given\ a\ set\ of\ coordinates\ move\ the\ current\ object\ to\ the\ new\ location\ \n\ if\ and\ only\ if\ the\ new\ location\ is\ not\ currently\ occupied\ by\ a\ barrier\ (i.e.\ an\ instance\ of\n\ the\ Rock\ class.\n\n\ @param\ \ newX\ -\ the\ new\ X\ coordinate\n\ \ \ \ \ \ \ \ \ newY\ -\ the\ new\ Y\ coordinate\n
+comment5.params=leftRight
+comment5.target=int\ getNewX(int)
+comment5.text=\n\ getNewX\ -\ Translate\ the\ Left,\ Right,\ Stay\ Put\ directive\ into\ a\ new\ value\ for\ the\ \n\ X\ coordinate.\n\n\ @param\ \ leftRight\:\ a\ 3-valued\ int\:\ Left,\ Right,\ or\ Stay\n\ @return\ \ \ \ \ the\ new\ X\ coordinate.\n
+comment6.params=upDown
+comment6.target=int\ getNewY(int)
+comment6.text=\n\ getNewY\ -\ Translate\ the\ Up,\ Down,\ and\ Stay\ Put\ directive\ into\ a\ new\ value\ for\ the\ \n\ Y\ coordinate.\n\n\ @param\ \ upDown\:\ a\ 3-valued\ int\:\ Up,\ Down,\ or\ Stay\n\ @return\ \ \ \ \ the\ new\ Y\ coordinate.\n
+numComments=7

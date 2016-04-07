@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=prob
+comment0.target=Lobster(int)
+comment1.params=
+comment1.target=void\ move()
+comment2.params=
+comment2.target=void\ shiftAllDown()
+comment3.params=
+comment3.target=int\ getBombProbability()
+comment4.params=
+comment4.target=int\ getValue()
+comment5.params=
+comment5.target=int\ getBombSpeed()
+numComments=6

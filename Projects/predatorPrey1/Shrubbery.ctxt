@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=shrubSize
+comment0.target=Shrubbery(int)
+comment0.text=\nShubbery\ Constructor\n\n\n
+comment1.target=void\ act()
+comment1.text=\nAct\ -\ do\ whatever\ the\ Shrubbery\ wants\ to\ do.\ This\ method\ is\ called\ whenever\nthe\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\n
+numComments=2

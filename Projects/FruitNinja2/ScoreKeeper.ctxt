@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ScoreKeeper
+comment0.text=\n\ Write\ a\ description\ of\ class\ ScoreKeeper\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=theWorld
+comment1.target=ScoreKeeper(greenfoot.World)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ScoreKeeper\n
+comment2.params=
+comment2.target=void\ scoreGoodFruit()
+comment3.params=
+comment3.target=void\ scoreMissedFruit()
+comment4.params=
+comment4.target=void\ displayScore()
+comment5.params=
+comment5.target=void\ gameOverMsg()
+numComments=6

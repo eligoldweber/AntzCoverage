@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Worldy
+comment0.text=\n\ Write\ a\ description\ of\ class\ Worldy\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Worldy()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=pitch\ yaw\ roll
+comment3.target=void\ turn(double,\ double,\ double)
+comment4.params=
+comment4.target=void\ render()
+comment5.params=a\ b
+comment5.target=double[]\ cross(double[],\ double[])
+comment6.params=a\ b
+comment6.target=double\ dot(double[],\ double[])
+numComments=7

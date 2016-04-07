@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=Location(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Location\r\n
+comment1.params=
+comment1.target=int\ getX()
+comment2.params=
+comment2.target=int\ getY()
+numComments=3

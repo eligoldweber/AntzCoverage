@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=bearSize
+comment0.target=Bear(int)
+comment0.text=\nBear\ Constructor\n\n\n
+comment1.target=void\ act()
+comment1.text=\nAct\ -\ do\ whatever\ the\ Bear\ wants\ to\ do.\ This\ method\ is\ called\ whenever\nthe\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\n
+comment2.target=int\ getMaxAge()
+numComments=3
