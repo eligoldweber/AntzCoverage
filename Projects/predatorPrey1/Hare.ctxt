@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=hareSize
-comment0.target=Hare(int)
-comment0.text=\nHare\ Constructor\n\n\n
-comment1.target=void\ act()
-comment1.text=\nAct\ -\ do\ whatever\ the\ Hare\ wants\ to\ do.\ This\ method\ is\ called\ whenever\nthe\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\n
-comment2.target=int\ getMaxAge()
-numComments=3

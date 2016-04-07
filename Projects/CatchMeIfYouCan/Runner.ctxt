@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Runner
-comment0.text=\n\ Runner\ -\ implement\ a\ single,\ user-controlled\ avatar\ to\ avoid\ being\ caught\ by\ any\ of\ the\ chaser\n\ objects.\ \ The\ runner\ tries\ to\ evade\ the\ chasers.\ \ The\ simulation\ ceases\ when\ the\ runner\ and\ any\n\ of\ the\ chasers\ occupy\ the\ same\ location.\n\ \n\ @author\ Mikeyg\n\ @version\ 2/25/07\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ Interpret\ the\ users\ key\ input\ (up,\ down,\ left\ and\ right\ arrow\ keys)\ to\ control\n\ the\ movement\ of\ the\ single\ runner\ object.\ \ The\ runner\ moves\ through\ the\ world\ as\ if\ it\n\ is\ a\ torus\:\ it\ wraps\ around\ the\ world.\n
-numComments=2

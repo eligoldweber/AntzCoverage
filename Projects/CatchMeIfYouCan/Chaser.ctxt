@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Chaser
-comment0.text=\n\ Chaser\ objects\ move\ independently\ around\ the\ world\ in\ the\ hope\ of\ "catching"\ the\ single\ runner\n\ object.\ \ The\ catch\ occurs\ when\ a\ chaser\ object\ occupies\ the\ same\ location\ as\ the\ runner\ object.\n\ \n\ Chasers\ move\ randomly\ through\ the\ world\ unless\ they\ sense\ the\ runner\ is\ close\ by;\ the\ runner\ is\n\ within\ PROXIMITY\ squares\ of\ the\ chaser.\ \ If\ the\ runner\ is\ close,\ the\ chaser\ then\ moves\ purposefully\n\ toward\ the\ runner.\n\ \n\ @author\ Mikeyg\n\ @version\ 2/25/07\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ If\ the\ runner\ is\ close\ by,\ move\ towards\ it,\ otherwise\ move\ in\ a\ random\ fashion.\n\ The\ current\ implementation\ has\ chasers\ moving\ without\ wrap\ throughout\ the\ world.\n\ \n\ Proximity\ detection\ is\ performed\ in\ a\ non-wrapping\ manner.\n
-numComments=2
