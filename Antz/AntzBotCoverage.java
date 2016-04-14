@@ -90,7 +90,7 @@ public class AntzBotCoverage extends Actor
             if(neighborNum()<=3 && getID() ==1){
                                   System.out.println(flag + "asdfsasdfasdfasdfasdfasdfadsfasdfasdfasdfdfasdfasdfasdf  " + id+ "and HIGH == " + getHigh());
                 //int count = 0;
-                if((!isAtEdge()) && (!gotOne)){
+                if((!isAtEdge()&& getNeighbours(1,true,Wall.class).isEmpty()) && (!gotOne)){
                     setLocation(getX(), getY()-1);
                     System.out.println("!!!!!!!!!!!!!!!!!!!HERE AT NOT EDGE : " + gotOne);
                     count++;
@@ -118,7 +118,7 @@ public class AntzBotCoverage extends Actor
            if(neighborNum()<=3 && getID() == Math.sqrt(getHigh())){
                                   System.out.println(flag + "asdfsasdfasdfasdfasdfasdfadsfasdfasdfasdfdfasdfasdfasdf  " + id+ "and HIGH == " + getHigh());
                 //int count = 0;
-                if((!isAtEdge()) && (!gotOne)){
+                if((!isAtEdge()&& getNeighbours(1,true,Wall.class).isEmpty()) && (!gotOne)){
                     setLocation(getX()+1, getY());
                     System.out.println("!!!!!!!!!!!!!!!!!!!HERE AT NOT EDGE : " + gotOne);
                     count++;
@@ -146,7 +146,7 @@ public class AntzBotCoverage extends Actor
            if(neighborNum()<=3 && (getID()==(getHigh()-Math.sqrt(getHigh()))+1)){
                                   System.out.println(flag + "asdfsasdfasdfasdfasdfasdfadsfasdfasdfasdfdfasdfasdfasdf  " + id+ "and HIGH == " + getHigh());
                 //int count = 0;
-                if((!isAtEdge()) && (!gotOne)){
+                if((!isAtEdge()&& getNeighbours(1,true,Wall.class).isEmpty()) && (!gotOne)){
                     setLocation(getX()-1, getY());
                     System.out.println("!!!!!!!!!!!!!!!!!!!HERE AT NOT EDGE : " + gotOne);
                     count++;
@@ -174,7 +174,7 @@ public class AntzBotCoverage extends Actor
             if(neighborNum()<=3 && getID() == getHigh()){
                                   System.out.println(flag + "asdfsasdfasdfasdfasdfasdfadsfasdfasdfasdfdfasdfasdfasdf  " + id + "and HIGH == " + getHigh());
                 //int count = 0;
-                if((!isAtEdge()) && (!gotOne)){
+                if((!isAtEdge() && getNeighbours(1,true,Wall.class).isEmpty()) && (!gotOne)){
                     setLocation(getX(), getY()+1);
                     System.out.println("!!!!!!!!!!!!!!!!!!!HERE AT NOT EDGE : " + gotOne);
                     count++;

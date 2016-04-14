@@ -29,6 +29,7 @@ public class MyWorld extends World
         int robotNum = 10;
         int startX = WIDTH/2;
         int startY = HEIGHT/2;
+        String wallString = "square";
         //x = (WIDTH/2)+(j);
         //y = (HEIGHT/2)+(i);
         for(int i = 0;i<robotNum;i++){
@@ -48,13 +49,21 @@ public class MyWorld extends World
         /**
         * Create wall
         */
-       // for(int i= 0; i<HEIGHT;i++){
-           // addObject(new Wall(),0,i);
-           // addObject(new Wall(),i,0);
-        // }
-       // for(int i= WIDTH; i>0;i--){
-           // addObject(new Wall(),WIDTH,i);
-           // addObject(new Wall(),i,WIDTH);
-        // }
+       if(wallString.equals("square")){
+       for(int i= 0; i<HEIGHT;i++){
+           addObject(new Wall(),1,i);
+           addObject(new Wall(),i,1);
+        }
+       for(int i= WIDTH; i>0;i--){
+           addObject(new Wall(),WIDTH-2,i);
+           addObject(new Wall(),i,WIDTH-2);
+        }
+       }else if (wallString.equals("circle")){
+        for(int i=0; i<HEIGHT/2-1;i++){
+           for(int j=HEIGHT/2-1; j>0;j--){
+            addObject(new Wall(),i,j);
+        }
+        }
+      }
     }
 }
